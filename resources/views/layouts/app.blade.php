@@ -26,7 +26,7 @@
     <div id="app">
         <!-- Menu com logo e login / register -->
           <nav class="navbar navbar-expand-md navbar-light navbar-laravel" style="padding: 0">
-            
+
                   <a id="logonavbar" href="/projetoreprograma/public/"><img src="../public/img/logo.jpg" alt="" class="navbar-brand" style="height: 10vh"/> Digital Consulting</a>
 
                   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
@@ -35,22 +35,28 @@
 
                   <div class="collapse navbar-collapse" id="navbarSupportedContent">
                       <!-- Left Side Of Navbar -->
-                      <ul class="navbar-nav mr-auto">
+                      <ul class="navbar-nav mr-auto" >
 
 
                             <li class="nav-item">
-                              <a class="nav-link" href="/cross373/public/#sobre">Sobre</a>
+                              <a class="nav-link" href="/cross373/public/#sobre">Sobre nós</a>
                             </li>
 
                             <li class="nav-item">
-                              <a class="nav-link" href="/cross373/public/contato">Contato</a>
+                              <a class="nav-link" href="/cross373/public/contato">Fale com a gente</a>
                             </li>
                             <li class="nav-item dropdown">
-                              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Store</a>
-                              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item" href="/cross373/public/storeplanos">Planos</a>
-                                <div class="dropdown-divider"></div>
-                                <a class="dropdown-item" href="/cross373/public/store">Produtos Fitness</a>
+                              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="text-align: center">Saiba sobre nossos núcleos</a>
+                              <div class="dropdown-menu" aria-labelledby="navbarDropdown" style="text-align: center">
+                                <a class="dropdown-item" href="/cross373/public/store">Consultoria Digital</a>
+                                <hr>
+                                <a class="dropdown-item" href="/cross373/public/storeplanos">Website e SEO</a>
+                                <hr>
+                                <a class="dropdown-item" href="/cross373/public/store">Dashboards</a>
+                                <hr>
+                                <a class="dropdown-item" href="/cross373/public/store">Sistemas gerenciais</a>
+                                <hr>
+                                <a class="dropdown-item" href="/cross373/public/store">Projeto Vamos Juntas</a>
                               </div>
                             </li>
 

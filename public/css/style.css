@@ -3,7 +3,7 @@ html, body {
     color: #636b6f;
     /* font-family: 'Special Elite', cursive; */
     font-family: 'Roboto Slab', serif;
-
+    text-align: center;
     font-weight: 200;
     height: 100vh;
     margin: 0;
@@ -117,11 +117,13 @@ nav {
 
 /* Horarios e galeria */
 
-.parallaxhorarios {
-  background-image: url('../img/bgfitness1.jpg');
+.parallax {
+  /* background-image: url('../img/parallax.jpg'); */
+  background-color: white;
   background-size: 100%;
   width: 100%;
-  height: 200px;
+  height: 100px;
+  margin-bottom: 5vh;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
