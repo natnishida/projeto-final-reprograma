@@ -5,11 +5,45 @@ html, body {
     font-family: 'Roboto Slab', serif;
     text-align: center;
     font-weight: 200;
-    height: 100vh;
     margin: 0;
     padding: 0;
     align-items: center !important;
 }
+
+h2 {
+  margin: 0 0 20px 0;
+  font-weight: 500;
+  font-size: 34px;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* menu */
+
+nav {
+  height: 12vh;
+}
+
+p {
+  margin: auto;
+}
+
+hr {
+  height: 2px;
+  width: 70px;
+  text-align: center;
+  background: black;
+  border: 0;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 0;
+}
+
+/* Style da navbar */
 
 #logonavbar{
 
@@ -19,12 +53,18 @@ html, body {
   color: black;
 }
 
+.navbar-nav {
+  margin: auto;
+}
+
 #navbarSupportedContent{
   z-index: 10;
   margin: 0;
   background-color: white;
   text-align: center;
 }
+
+/* Style do carrossel */
 
 .carousel-caption{
   opacity: 0.9;
@@ -46,63 +86,7 @@ html, body {
   font-size: 1.4rem;
 }
 
-.full-height {
-    height: 100vh;
-}
-
-.flex-center {
-    align-items: center;
-    display: flex;
-    justify-content: center;
-}
-
-.position-ref {
-    position: relative;
-}
-
-.top-right {
-    position: absolute;
-    right: 10px;
-    top: 18px;
-}
-
-.content {
-    text-align: center;
-}
-
-.title {
-    font-size: 84px;
-}
-
-.links > a {
-    color: #636b6f;
-    padding: 0 25px;
-    font-size: 13px;
-    font-weight: 600;
-    letter-spacing: .1rem;
-    text-decoration: none;
-    text-transform: uppercase;
-}
-
-.m-b-md {
-    margin-bottom: 30px;
-}
-
-a {
-  text-decoration: none;
-}
-
-/* menu */
-
-nav {
-  height: 12vh;
-}
-
-
-.navbar-nav {
-  margin: auto;
-
-}
+/* Style da página de registro */
 
 .imagem-auth{
   background-image: url('../img/imgregistro.jpg');
@@ -111,76 +95,53 @@ nav {
   background-position: center;
   background-repeat: no-repeat;
   margin: 0;
-
-
 }
 
-/* Horarios e galeria */
+/* Categorias atendidas */
 
 .parallax {
-  /* background-image: url('../img/parallax.jpg'); */
-  background-color: white;
+  background-image: url('../img/parallax.jpg');
+  /* background-color: white; */
   background-size: 100%;
   width: 100%;
-  height: 100px;
-  margin-bottom: 5vh;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
 }
 
-.parallaxgaleria {
-  background-image: url('../img/bgfitness1.jpg');
-  background-size: 100%;
-  width: 100%;
-  height: 200px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
+.textocategorias h2 {
+    color: black;
+    text-align: center;
 }
 
-h2 {
-  margin: 0 0 20px 0;
-  font-weight: 500;
-  font-size: 34px;
-  color: #fff;
-  text-transform: uppercase;
-
+.tab-content, .tab-pane, .media {
+  border-bottom-left-radius: .50rem;
+  border-bottom-right-radius: : .50rem;
 }
 
-.textogaleria {
-  text-align: center;
-  color: white;
-  padding-top: 40px;
+.nav-pills {
+  border-top-left-radius: .50rem;
+  border-top-right-radius: : .50rem;
 }
 
-.textohorarios {
-  text-align: center;
-  color: white;
-  padding: 50px;
 
+@media (min-width: 768px) {
+.carousel-item {
+  height: 88vh;
+}
+.img-categorias {
+  width: 30vw;
+}
 }
 
-/* Frase de efeito com parallax */
-
-.fraseefeito {
-  background-image: url('../img/bgfitness1.jpg');
-  background-size: 100%;
-  width: 100%;
-  height: 150px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-  color: white;
-  padding: 15px 0 0 0;
-  text-align: center;
+@media (max-width: 767px) {
+.img-categorias {
+  width: 35vw;
 }
-
-p {
-  margin: auto;
+.txt-categorias {
+  font-size: 0.8rem !important;
+}
 }
 
 /* Sobre nós (imagem e texto) */
@@ -221,15 +182,6 @@ p {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-}
-
-hr {
-  height: 2px;
-  width: 70px;
-  text-align: center;
-  position: relative;
-  background: #cc1f34;
-  border: 0;
 }
 
 
