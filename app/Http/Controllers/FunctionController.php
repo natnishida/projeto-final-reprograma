@@ -45,11 +45,11 @@ class FunctionController extends Controller
 
     if($nova_resposta['quizestoque'] == "1-ficosem" && $nova_resposta['quizdigital'] == "1-sem-site-nem-fb" && $nova_resposta['quizfinanceiro'] == "1-ficosem"){
       $resp_estoque1 = "Compro quando sinto falta de algo e com frequência fico sem estoque.";
-      $msg_estoque1 = "Isso é bem perigoso e pode te levar a perder vendas ou, até pior, vender algo que você não tenha estoque! De qualquer forma você perde a credibilidade com seu consumidor :(";
-      $resp_digital1 = "Compro quando sinto falta de algo e com frequência fico sem digital.";
-      $msg_digital1 = "Isso é bem perigoso e pode te levar a perder vendas ou, até pior, vender algo que você não tenha digital! De qualquer forma você perde a credibilidade com seu consumidor :(";
-      $resp_financeiro1 = "Compro quando sinto falta de algo e com frequência fico sem financeiro.";
-      $msg_financeiro1 = "Isso é bem perigoso e pode te levar a perder vendas ou, até pior, vender algo que você não tenha digital! De qualquer forma você perde a credibilidade com seu consumidor :(";
+      $msg_estoque1 = "Isso é bem perigoso e pode te levar a perder vendas ou, até pior, vender algo que você não tenha estoque! De qualquer forma você perde a credibilidade com seu consumidor. Você já imaginou ter um sistema que você possa fazer esse controle e ainda que pode te avisar quando um produto está acabando? Podemos te ajudar!";
+      $resp_digital1 = "Não tenho site, nem sou ativa nas redes sociais.";
+      $msg_digital1 = "Quando você não tem presença digital, você limita seu alcance apenas a pessoas que passam na frente do seu estabelecimento ou depende muito da propaganda boca a boca. Com presença digital, qualquer pessoa pode descobrir seu site e se interessar pelos seus prontos. Imagine as possibilidades de crescimento!";
+      $resp_financeiro1 = "Não consigo fazer há um tempo.";
+      $msg_financeiro1 = "De todas as questões, acredito que essa seja a mais preocupante. Isso porque, quando a gente se perde e não consegue achar tempo para cuidar das finanças, todo mês vira uma roleta russa e nunca conseguimos crescer, porque acabamos ficando sempre no zero a zero. E se eu te disser que você consegue esse controle financeiro de forma automatizada? Quer saber mais?";
       return view('resultados',
       ['resultadoDigital' => $msg_digital1,
         'respostaDigital' => $resp_digital1,

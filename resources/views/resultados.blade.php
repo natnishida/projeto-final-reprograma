@@ -8,7 +8,7 @@
             </div>
       @endif
       <div class="alert alert-success">
-							<p>Olá, {{ Auth::user()->name }}!! Que bom ver você por aqui! Vamos juntas!?</p>
+							<p>Legal, {{ Auth::user()->name }}!! Vamos ver seus resultados!?</p>
 			</div>
       @isset($msg)
 
@@ -23,11 +23,7 @@
       <div class="quizpergunta1 container-fluid rounded bg-light">
 
                   <div class="row">
-                    <div class="col-sm-12 col-md-6 quizimg1 d-flex justify-content-center">
-                        <div class="w-50 divquiz bg-light rounded p-3 align-self-center">
-                            <h3>Controle de estoque</h3>
-                        </div>
-                    </div>
+
                     <div class="col-sm-6 p-5 d-flex d-flex flex-column">
 
                         <h3 style="text-align: right">Você respondeu: <br>
@@ -41,6 +37,11 @@
                           @endisset
                         </div>
                     </div>
+                    <div class="col-sm-12 col-md-6 quizimg1 d-flex justify-content-center">
+                        <div class="w-50 divquiz bg-light rounded p-3 align-self-center">
+                            <h3>Controle de estoque</h3>
+                        </div>
+                    </div>
                   </div>
       </div>
   <!-- Fim da pergunta 1 -->
@@ -48,9 +49,14 @@
   <!-- Pergunta 2 -->
 
         <div class="quizpergunta1 container-fluid rounded bg-light">
-              <fieldset class="form-group">
+
                     <div class="row">
 
+                    <div class="col-sm-12 col-md-6 quizimg2 d-flex justify-content-center">
+                          <div class="w-50 divquiz bg-light rounded p-3 align-self-center">
+                              <h3>Presença Digital?</h3>
+                          </div>
+                      </div>
                       <div class="col-sm-6 p-5 d-flex d-flex flex-column">
 
                           <h3 style="text-align: right">Você respondeu: <br>
@@ -64,14 +70,7 @@
                             @endisset
                           </div>
                       </div>
-
-                      <div class="col-sm-12 col-md-6 quizimg2 d-flex justify-content-center">
-                          <div class="w-50 divquiz bg-light rounded p-3 align-self-center">
-                              <h3>Presença Digital?</h3>
-                          </div>
-                      </div>
                     </div>
-              </fieldset>
 
         </div>
     <!-- Fim da pergunta 2 -->
@@ -80,11 +79,7 @@
           <div class="quizpergunta1 container-fluid rounded bg-light">
 
                       <div class="row">
-                        <div class="col-sm-12 col-md-6 quizimg3 d-flex justify-content-center">
-                            <div class="w-50 divquiz bg-light rounded p-3 align-self-center">
-                                <h3>Gestão Financeira</h3>
-                            </div>
-                        </div>
+
                         <div class="col-sm-6 p-5 d-flex d-flex flex-column">
 
                           <h3 style="text-align: right">Você respondeu: <br>
@@ -99,11 +94,16 @@
                           </div>
 
                         </div>
+                        <div class="col-sm-12 col-md-6 quizimg3 d-flex justify-content-center">
+                            <div class="w-50 divquiz bg-light rounded p-3 align-self-center">
+                                <h3>Gestão Financeira</h3>
+                            </div>
+                        </div>
                       </div>
 
           </div>
           <!-- Fim da pergunta 3 -->
-          
+<a href="/projetojuntas" class="btn btn-primary btn-cat align-self-center w-40 m-5">Entre em contato que podemos te ajudar!</a>
 
 </div>
 @endsection
