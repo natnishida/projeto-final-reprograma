@@ -20,3 +20,6 @@ Auth::routes();
 Route::get('/home', 'HomeController@index')->name('home');
 
 Route::get('/projetojuntas', 'FunctionController@projetojuntas')->name('projetojuntas');
+
+Route::get('/guardaresultados', 'FunctionController@guardaresultados')->name('guardaresultados');
+Route::post('/guardaresultados', 'FunctionController@guardaresultados')->name('guardaresultados');

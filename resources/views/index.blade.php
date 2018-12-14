@@ -95,7 +95,7 @@
                 </div>
                 <div class="media-body m-3 txt-categorias align-self-center">
                   <h5 class="">Projeto Vamos Juntas</h5>
-                  Sabemos que nem sempre as coisas são fáceis, ainda mais quando somos mulheres e micro-empreendedoras, certo?
+                  Sabemos que nem sempre as coisas são fáceis, ainda mais quando somos mulheres e microempreendedoras, certo?
                   É por isso que o Projeto Vamos Juntas existe. Queremos empoderar vocês por meio do conhecimento e da tecnologia, colocando seu negócio no mundo digital e expandindo seus horizontes! Mais ainda, queremos preparar você e seu negócio para crescer cada vez mais! Bora conversar, tomar um café e começar esse projeto?<br>
                   <a href="/projetojuntas" class="btn btn-primary btn-cat align-self-center mt-3">Saiba Mais</a>
                 </div>

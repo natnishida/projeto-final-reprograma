@@ -137,6 +137,13 @@ hr {
 .btn-cat {
   width: 50%;
   margin: auto;
+  background-color: #1367ad;
+}
+
+.btn-sm {
+
+  margin: auto;
+  background-color: #1367ad;
 }
 
 
@@ -182,14 +189,39 @@ hr {
 
 .containerprojetojuntas{
   background-image: url('../img/bgjuntas.jpg');
-  height: 88vh;
+
   background-size: 100%;
   width: 100%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
+  color: black;
 }
+
+.divprojeto{
+  opacity: 0.9;
+}
+
+.imgprojetojuntas{
+    background-image: url('../img/imgjuntas.jpg');
+    background-size: 100%;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+}
+.imgprojetojuntas2{
+    background-image: url('../img/imgjuntas2.jpg');
+    background-size: 100%;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+}
+.titulojuntas{
+  color:black;
+}
+
+
 
 /* Newsletter e footer */
 
@@ -231,6 +263,50 @@ hr {
 
 .linksfooter a:hover {
   color: #CCC;
+}
+
+/* Style da página do Quiz */
+
+.quizpergunta1 {
+  width: 60vw;
+}
+.quizimg1 {
+  background-image: url('../img/quiz1.jpg');
+  background-size: 100%;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+}
+.quizimg2 {
+  background-image: url('../img/imgjuntas2.jpg');
+  background-size: 100%;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+}
+
+.quizimg3 {
+  background-image: url('../img/quizimg3.jpg');
+  background-size: 100%;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+}
+
+@media (max-width: 800px) {
+.quizimg1, .quizimg2, .quizimg3 {
+  height: 20vh;
+}
+.quizpergunta1{
+  font-size: 0.8rem;
+  width: 100vw;
+
+}
+}
+
+.divquiz{
+  opacity: 0.9;
+
 }
 
 
