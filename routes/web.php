@@ -23,3 +23,6 @@ Route::get('/projetojuntas', 'FunctionController@projetojuntas')->name('projetoj
 
 Route::get('/guardaresultados', 'FunctionController@guardaresultados')->name('guardaresultados');
 Route::post('/guardaresultados', 'FunctionController@guardaresultados')->name('guardaresultados');
+
+Route::get('/resultados', 'FunctionController@mostraresultados')->name('mostraresultados');
+Route::post('/resultados', 'FunctionController@mostraresultados')->name('mostraresultados');
