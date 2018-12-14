@@ -91,13 +91,13 @@
             <div class="media d-flex">
                 <div class="flex-column align-self-center img-categorias m-sm-2 m-md-3">
                   <img class="m-2 img-categorias align-self-center rounded-circle" src="img/carrossel4.jpg" alt="Projeto Vamos juntas consultoria para empreendedoras">
-                  <a href="/projetojuntas" class="btn btn-primary btn-sm align-self-center m-3 d-sm-block d-md-none">Saiba Mais</a>
+                  <a href="/projetoreprograma/public/projetoreprograma/public/projetojuntas" class="btn btn-primary btn-sm align-self-center m-3 d-sm-block d-md-none">Saiba Mais</a>
                 </div>
                 <div class="media-body m-3 txt-categorias align-self-center">
                   <h5 class="">Projeto Vamos Juntas</h5>
                   Sabemos que nem sempre as coisas são fáceis, ainda mais quando somos mulheres e microempreendedoras, certo?
                   É por isso que o Projeto Vamos Juntas existe. Queremos empoderar vocês por meio do conhecimento e da tecnologia, colocando seu negócio no mundo digital e expandindo seus horizontes! Mais ainda, queremos preparar você e seu negócio para crescer cada vez mais! Bora conversar, tomar um café e começar esse projeto?<br>
-                  <a href="/projetojuntas" class="btn btn-primary btn-cat align-self-center mt-3">Saiba Mais</a>
+                  <a href="/projetoreprograma/public/projetojuntas" class="btn btn-primary btn-cat align-self-center mt-3">Saiba Mais</a>
                 </div>
 
             </div>
@@ -112,7 +112,7 @@
                 <div class="media-body m-3 txt-categorias align-self-center">
                   <h5 class="m-3">Aqui você encontra solução, não mais problemas</h5>
                   Está procurando uma solução completa para desenvolver ou expandir sua presença digital? Conte com a gente do início ao fim do processo, com transparência e pensando no que é melhor para o seu segmento.<br>
-                  <a href="/projetojuntas" class="btn btn-primary btn-cat align-self-center mt-3">Saiba Mais</a>
+                  <a href="/projetoreprograma/public/projetojuntas" class="btn btn-primary btn-cat align-self-center mt-3">Saiba Mais</a>
                 </div>
             </div>
           </div>
@@ -126,7 +126,7 @@
                 <div class="media-body m-3 txt-categorias align-self-center">
                   <h5 class="m-3">Escolha ser digital, sempre!</h5>
                   Ter um website bem estruturado, responsivo e com boas práticas para seu usuário é essencial para um bom desempenho (inclusive offline, viu?) É por isso que nossa solução traz para você a construção do seu website, podendo ser institucional ou e-commerce.<br>
-                  <a href="/projetojuntas" class="btn btn-primary btn-cat align-self-center mt-3">Saiba Mais</a>
+                  <a href="/projetoreprograma/public/projetojuntas" class="btn btn-primary btn-cat align-self-center mt-3">Saiba Mais</a>
                 </div>
             </div>
           </div>
@@ -140,7 +140,7 @@
                 <div class="media-body m-3 txt-categorias align-self-center">
                   <h5 class="m-3">SEM, SEO e Links Patrocinados</h5>
                   Apenas um website não é o bastante para garantir seu sucesso digital e trazer resultados reais. É necessário que haja uma estratégia e que sejam aplicadas as melhores práticas de SEO, garantindo seu posicionamento orgânico e, além disso, garantir sua presença em anúncios patrocinados.<br>
-                  <a href="/projetojuntas" class="btn btn-primary btn-cat align-self-center mt-3">Saiba Mais</a>
+                  <a href="/projetoreprograma/public/projetojuntas" class="btn btn-primary btn-cat align-self-center mt-3">Saiba Mais</a>
                 </div>
             </div>
           </div>
@@ -154,7 +154,7 @@
                 <div class="media-body m-3 txt-categorias align-self-center">
                   <h5 class="">Relatórios e Dashboard</h5>
                   Já se sentiu perdido com relação aos seus resultados? Perde horas ou até dias juntando todos os seus dados para conseguir iniciar uma análise? Podemos construir dashboards gerenciais baseados nas melhores KPIs para o seu negócio, tornando o controle muito mais simples e rápido.<br>
-                  <a href="/projetojuntas" class="btn btn-primary btn-cat align-self-center mt-3">Saiba Mais</a>
+                  <a href="/projetoreprograma/public/projetojuntas" class="btn btn-primary btn-cat align-self-center mt-3">Saiba Mais</a>
                 </div>
             </div>
           </div>
@@ -169,7 +169,7 @@
                   <h5 class="">Sistemas Gerenciais</h5>
                   Deseja construir um sistema de controle personalizado para sua empresa? Com cadastros específicos, tratamento de dados, metas e KPIs? Podemos construir um sistema do zero com a sua cara.
                   <br>
-                  <a href="/projetojuntas" class="btn btn-primary btn-cat align-self-center mt-3">Saiba Mais</a>
+                  <a href="/projetoreprograma/public/projetojuntas" class="btn btn-primary btn-cat align-self-center mt-3">Saiba Mais</a>
                 </div>
             </div>
           </div>

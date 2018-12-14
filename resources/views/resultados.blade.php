@@ -103,7 +103,7 @@
 
           </div>
           <!-- Fim da pergunta 3 -->
-<a href="/projetojuntas" class="btn btn-primary btn-cat align-self-center w-40 m-5">Entre em contato que podemos te ajudar!</a>
+<a href="/projetoreprograma/public/contato" class="btn btn-primary btn-cat align-self-center w-40 m-5">Entre em contato que podemos te ajudar!</a>
 
 </div>
 @endsection

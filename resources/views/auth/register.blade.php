@@ -1,9 +1,12 @@
 @extends('layouts.app')
 
 @section('content')
-<div class="container">
+<div class="container-fluid">
     <div class="row justify-content-center">
-        <div class="col-md-8">
+        <div class="d-sm-none d-md-block col-md-6 imagem-auth">
+
+        </div>
+        <div class="col-md-6 p-0">
             <div class="card">
                 <div class="card-header">Primeiro de tudo, vamos criar um login e uma senha para você acessar sempre seus resultados! Prometo não mandar spam, ok?</div>
 

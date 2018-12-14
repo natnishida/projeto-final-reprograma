@@ -33,7 +33,7 @@
                     <p>Quer ter um diagnóstico com algumas dicas bem bacanas e já saber onde podemos melhorar seu negócio?</p>
                     <p>Preparamos algumas perguntinhas bem legais (e rápidas) para a gente ter um ponto de partida.</p>
                     <p>Vamos juntas!</p>
-                    <a href="/register" class="btn btn-primary btn-cat align-self-center mt-3">Clique aqui!</a>
+                    <a href="{{ route('register') }}" class="btn btn-primary btn-cat align-self-center mt-3">Clique aqui!</a>
 
                   </div>
 
@@ -44,7 +44,7 @@
                       <p>Quer ter um diagnóstico com algumas dicas bem bacanas e já saber onde podemos melhorar seu negócio?</p>
                       <p>Preparamos algumas perguntinhas bem legais (e rápidas) para a gente ter um ponto de partida.</p>
                       <p>Vamos juntas!</p>
-                      <a href="/register" class="btn btn-primary btn-cat align-self-center mt-3">Clique aqui!</a>
+                      <a href="{{ route('register') }}" class="btn btn-primary btn-cat align-self-center mt-3">Clique aqui!</a>
                       </div>
                   @endguest
 

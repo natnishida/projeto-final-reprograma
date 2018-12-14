@@ -27,7 +27,7 @@
         <!-- Menu com logo e login / register -->
           <nav class="navbar navbar-expand-lg navbar-light navbar-laravel" style="padding: 0">
 
-                  <a id="logonavbar" href="/"><img src="img/logo.jpg" alt="" class="navbar-brand" style="height: 10vh"/> Digital Consulting</a>
+                  <a id="logonavbar" href="/projetoreprograma/public/"><img src="img/logo.jpg" alt="" class="navbar-brand" style="height: 10vh"/> Digital Consulting</a>
 
                   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
                       <span class="navbar-toggler-icon"></span>
@@ -39,24 +39,24 @@
 
 
                             <li class="nav-item">
-                              <a class="nav-link" href="/projetojuntas">Sobre nós</a>
+                              <a class="nav-link" href="/projetoreprograma/public/projetojuntas">Sobre nós</a>
                             </li>
 
                             <li class="nav-item">
-                              <a class="nav-link" href="/contato">Fale com a gente</a>
+                              <a class="nav-link" href="/projetoreprograma/public/contato">Fale com a gente</a>
                             </li>
                             <li class="nav-item dropdown">
                               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="text-align: center">Saiba sobre nossos núcleos</a>
                               <div class="dropdown-menu" aria-labelledby="navbarDropdown" style="text-align: center">
-                                <a class="dropdown-item" href="/consultoria">Consultoria Digital</a>
+                                <a class="dropdown-item" href="/projetoreprograma/public/consultoria">Consultoria Digital</a>
                                 <hr>
-                                <a class="dropdown-item" href="/website">Website e SEO</a>
+                                <a class="dropdown-item" href="/projetoreprograma/public/website">Website e SEO</a>
                                 <hr>
-                                <a class="dropdown-item" href="/dashboard">Dashboards</a>
+                                <a class="dropdown-item" href="/projetoreprograma/public/dashboard">Dashboards</a>
                                 <hr>
-                                <a class="dropdown-item" href="/sistemas">Sistemas gerenciais</a>
+                                <a class="dropdown-item" href="/projetoreprograma/public/sistemas">Sistemas gerenciais</a>
                                 <hr>
-                                <a class="dropdown-item" href="/projetojuntas">Projeto Vamos Juntas</a>
+                                <a class="dropdown-item" href="/projetoreprograma/public/projetojuntas">Projeto Vamos Juntas</a>
                               </div>
                             </li>
 
@@ -160,7 +160,7 @@
                           <a href="#!">Sistemas Gerenciais</a>
                         </p>
                         <p>
-                          <a href="#!">Projeto Vamos Juntas</a>
+                          <a href="/projetoreprograma/public/projetojuntas">Projeto Vamos Juntas</a>
                         </p>
                     </div>
 
