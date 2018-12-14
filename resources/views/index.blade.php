@@ -7,28 +7,38 @@
     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" >
 
         <div class="carousel-inner " >
+
             <div class="carousel-item active">
-                <div class="carousel-caption rounded bg-dark d-none d-md-block">
-                <h3 class="carrossel-legenda"><strong>Consultoria Digital</strong></h3>
-                <h4 class="carrossel-sublegenda">Para o seu negócio crescer mais e mais!</h4>
-                <p class="carrossel-legenda-paragrafo">Tem dúvidas sobre como trazer seu negócio para o mundo digital? Conte com a gente!</p>
-                </div>
+              <img class="d-block w-100" src="img/carrossel4.jpg?auto=yes&bg=777&fg=555&text=Terceiro slide" alt="Terceiro slide">
+              <div class="carousel-caption rounded bg-dark">
+              <h3 class="carrossel-legenda"><strong>Projeto Vamos Juntas</strong></h3>
+              <h4 class="carrossel-sublegenda d-none d-lg-block">Porque juntas podemos mais!</h4>
+              <p class="carrossel-legenda-paragrafo d-none d-lg-block">Está começando o seu negócio e precisa de ajuda? Só vem!</p>
+              </div>
+            </div>
+
+            <div class="carousel-item">
                 <img class="d-block w-100" src="img/carrossel1.jpg?auto=yes&bg=777&fg=555&text=Primeiro slide" alt="Primeiro slide">
+                <div class="carousel-caption rounded bg-dark ">
+                <h3 class="carrossel-legenda"><strong>Consultoria Digital</strong></h3>
+                <h4 class="carrossel-sublegenda d-none d-lg-block">Para o seu negócio crescer mais e mais!</h4>
+                <p class="carrossel-legenda-paragrafo d-none d-lg-block">Tem dúvidas sobre como trazer seu negócio para o mundo digital? Conte com a gente!</p>
+                </div>
             </div>
             <div class="carousel-item">
               <img class="d-block w-100" src="img/carrossel2.jpg?auto=yes&bg=777&fg=555&text=Segundo slide" alt="Segundo slide">
-              <div class="carousel-caption rounded bg-dark d-none d-md-block">
+              <div class="carousel-caption rounded bg-dark">
               <h3 class="carrossel-legenda"><strong>Construa seu Website</strong></h3>
-              <h4 class="carrossel-sublegenda">Pode escolher entre institucional ou e-commerce!</h4>
-              <p class="carrossel-legenda-paragrafo">Responsivo e com estratégia de SEO montada, pensando no seu segmento.</p>
+              <h4 class="carrossel-sublegenda d-none d-lg-block">Pode escolher entre institucional ou e-commerce!</h4>
+              <p class="carrossel-legenda-paragrafo d-none d-lg-block">Responsivo e com estratégia de SEO montada, pensando no seu segmento.</p>
               </div>
             </div>
             <div class="carousel-item">
               <img class="d-block w-100" src="img/carrossel3.jpg?auto=yes&bg=777&fg=555&text=Terceiro slide" alt="Terceiro slide">
-              <div class="carousel-caption rounded bg-dark d-none d-md-block">
+              <div class="carousel-caption rounded bg-dark">
               <h3 class="carrossel-legenda"><strong>Dashboards e sistemas gerenciais</strong></h3>
-              <h4 class="carrossel-sublegenda">Precisa controlar seus números?</h4>
-              <p class="carrossel-legenda-paragrafo">Vamos definir as melhores métricas e entregar um dashboard personalizado para você nunca mais se perder!</p>
+              <h4 class="carrossel-sublegenda d-none d-lg-block">Precisa controlar seus números?</h4>
+              <p class="carrossel-legenda-paragrafo d-none d-lg-block">Vamos definir as melhores métricas e entregar um dashboard personalizado para você nunca mais se perder!</p>
               </div>
             </div>
         </div>
@@ -46,7 +56,8 @@
 <div class="parallax mt-3 mb-3 d-flex flex-column justify-content-center">
       <hr class="align-self-center">
       <div class="textocategorias align-self-center">
-          <h2>Categorias que atendemos</h2>
+          <h2><span>
+            No que podemos ajudar hoje?</span></h2>
       </div>
 
 
@@ -55,7 +66,10 @@
 
       <ul class="container nav nav-pills d-flex flex-row justify-content-around bg-light" id="pills-tab" role="tablist">
         <li class="nav-item">
-          <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-consultoria" role="tab" aria-controls="pills-consultoria" aria-selected="true">Consultoria Digital</a>
+          <a class="nav-link active" id="pills-projetojuntas-tab" data-toggle="pill" href="#pills-projetojuntas" role="tab" aria-controls="pills-projetojuntas" aria-selected="true">Projeto Vamos Juntas</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link " id="pills-consultoria-tab" data-toggle="pill" href="#pills-consultoria" role="tab" aria-controls="pills-consultoria" aria-selected="false">Consultoria Digital</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" id="pills-website-tab" data-toggle="pill" href="#pills-website" role="tab" aria-controls="pills-website" aria-selected="false">Construção de Website</a>
@@ -69,86 +83,93 @@
         <li class="nav-item">
           <a class="nav-link" id="pills-sistemas-tab" data-toggle="pill" href="#pills-sistemas" role="tab" aria-controls="pills-sistemas" aria-selected="false">Sistemas Gerenciais</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" id="pills-projetojuntas-tab" data-toggle="pill" href="#pills-projetojuntas" role="tab" aria-controls="pills-projetojuntas" aria-selected="false">Projeto Vamos Juntas</a>
-        </li>
-      </ul>
-      <div class="tab-content container p-0 mb-3" id="pills-tabContent">
 
-          <div class="tab-pane bg-light fade show active" id="pills-consultoria" role="tabpanel" aria-labelledby="pills-consultoria-tab">
+      </ul>
+      <div class="tab-content container p-sm-0 p-md-3 mb-4 border-top border-primary" id="pills-tabContent">
+
+          <div class="tab-pane bg-light fade show active" id="pills-projetojuntas" role="tabpanel" aria-labelledby="pills-projetojuntas-tab">
             <div class="media d-flex">
-                <div class="flex-column align-self-center img-categorias m-sm-1 m-md-3">
-                  <img class="m-3 img-categorias align-self-center" src="img/carrossel1.jpg" alt="Generic placeholder image">
-                  <img class="m-3 img-categorias align-self-center d-sm-block d-md-none" src="img/carrossel1.jpg" alt="Generic placeholder image">
+                <div class="flex-column align-self-center img-categorias m-sm-2 m-md-3">
+                  <img class="m-2 img-categorias align-self-center rounded-circle" src="img/carrossel4.jpg" alt="Projeto Vamos juntas consultoria para empreendedoras">
+                  <a href="/projetojuntas" class="btn btn-primary btn-sm align-self-center m-3 d-sm-block d-md-none">Saiba Mais</a>
+                </div>
+                <div class="media-body m-3 txt-categorias align-self-center">
+                  <h5 class="">Projeto Vamos Juntas</h5>
+                  Sabemos que nem sempre as coisas são fáceis, ainda mais quando somos mulheres e micro-empreendedoras, certo?
+                  É por isso que o Projeto Vamos Juntas existe. Queremos empoderar vocês por meio do conhecimento e da tecnologia, colocando seu negócio no mundo digital e expandindo seus horizontes! Mais ainda, queremos preparar você e seu negócio para crescer cada vez mais! Bora conversar, tomar um café e começar esse projeto?<br>
+                  <a href="/projetojuntas" class="btn btn-primary btn-cat align-self-center mt-3">Saiba Mais</a>
+                </div>
+
+            </div>
+          </div>
+
+          <div class="tab-pane bg-light fade" id="pills-consultoria" role="tabpanel" aria-labelledby="pills-consultoria-tab">
+            <div class="media d-flex">
+                <div class="flex-column align-self-center img-categorias m-sm-2 m-md-3">
+                  <img class="m-2 img-categorias align-self-center rounded-circle" src="img/carrossel1.jpg" alt="Projeto Vamos juntas consultoria para empreendedoras">
+                  <a href="#" class="btn btn-primary btn-sm align-self-center m-3 d-sm-block d-md-none">Saiba Mais</a>
                 </div>
                 <div class="media-body m-3 txt-categorias align-self-center">
                   <h5 class="m-3">Aqui você encontra solução, não mais problemas</h5>
-                  Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+                  Está procurando uma solução completa para desenvolver ou expandir sua presença digital? Conte com a gente do início ao fim do processo, com transparência e pensando no que é melhor para o seu segmento.<br>
+                  <a href="/projetojuntas" class="btn btn-primary btn-cat align-self-center mt-3">Saiba Mais</a>
                 </div>
             </div>
           </div>
 
           <div class="tab-pane bg-light fade" id="pills-website" role="tabpanel" aria-labelledby="pills-website-tab">
             <div class="media d-flex">
-                <div class="flex-column align-self-center img-categorias m-sm-1 m-md-3">
-                  <img class="m-3 img-categorias align-self-center" src="img/carrossel1.jpg" alt="Generic placeholder image">
-                  <img class="m-3 img-categorias align-self-center d-sm-block d-md-none" src="img/carrossel1.jpg" alt="Generic placeholder image">
+                <div class="flex-column align-self-center img-categorias m-sm-2 m-md-3">
+                  <img class="m-2 img-categorias align-self-center rounded-circle" src="img/categoriawebsite.jpg" alt="Generic placeholder image">
+                  <a href="#" class="btn btn-primary btn-sm align-self-center m-3 d-sm-block d-md-none">Saiba Mais</a>
                 </div>
                 <div class="media-body m-3 txt-categorias align-self-center">
-                  <h5 class="m-3">Aqui você encontra solução, não mais problemas</h5>
-                  Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+                  <h5 class="m-3">Escolha ser digital, sempre!</h5>
+                  Ter um website bem estruturado, responsivo e com boas práticas para seu usuário é essencial para um bom desempenho (inclusive offline, viu?) É por isso que nossa solução traz para você a construção do seu website, podendo ser institucional ou e-commerce.<br>
+                  <a href="/projetojuntas" class="btn btn-primary btn-cat align-self-center mt-3">Saiba Mais</a>
                 </div>
             </div>
           </div>
 
           <div class="tab-pane bg-light fade" id="pills-seo" role="tabpanel" aria-labelledby="pills-seo-tab">
             <div class="media d-flex">
-                <div class="flex-column align-self-center img-categorias m-sm-1 m-md-3">
-                  <img class="m-3 img-categorias align-self-center" src="img/carrossel1.jpg" alt="Generic placeholder image">
-                  <img class="m-3 img-categorias align-self-center d-sm-block d-md-none" src="img/carrossel1.jpg" alt="Generic placeholder image">
+                <div class="flex-column align-self-center img-categorias m-sm-2 m-md-3">
+                  <img class="m-2 img-categorias align-self-center rounded-circle" src="img/categoriamkt.jpg" alt="Generic placeholder image">
+                  <a href="#" class="btn btn-primary btn-sm align-self-center m-3 d-sm-block d-md-none">Saiba Mais</a>
                 </div>
                 <div class="media-body m-3 txt-categorias align-self-center">
-                  <h5 class="m-3">Media heading</h5>
-                  Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+                  <h5 class="m-3">SEM, SEO e Links Patrocinados</h5>
+                  Apenas um website não é o bastante para garantir seu sucesso digital e trazer resultados reais. É necessário que haja uma estratégia e que sejam aplicadas as melhores práticas de SEO, garantindo seu posicionamento orgânico e, além disso, garantir sua presença em anúncios patrocinados.<br>
+                  <a href="/projetojuntas" class="btn btn-primary btn-cat align-self-center mt-3">Saiba Mais</a>
                 </div>
             </div>
           </div>
 
           <div class="tab-pane bg-light fade" id="pills-dashboards" role="tabpanel" aria-labelledby="pills-dashboards-tab">
             <div class="media d-flex">
-                <div class="flex-column align-self-center img-categorias m-sm-1 m-md-3">
-                  <img class="m-3 img-categorias align-self-center" src="img/carrossel1.jpg" alt="Generic placeholder image">
-                  <img class="m-3 img-categorias align-self-center d-sm-block d-md-none" src="img/carrossel1.jpg" alt="Generic placeholder image">
+                <div class="flex-column align-self-center img-categorias m-sm-2 m-md-3">
+                  <img class="m-2 img-categorias align-self-center rounded-circle" src="img/categoriadash.jpg" alt="Generic placeholder image">
+                  <a href="#" class="btn btn-primary btn-sm align-self-center m-3 d-sm-block d-md-none">Saiba Mais</a>
                 </div>
                 <div class="media-body m-3 txt-categorias align-self-center">
-                  <h5 class="">Media heading</h5>
-                  Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+                  <h5 class="">Relatórios e Dashboard</h5>
+                  Já se sentiu perdido com relação aos seus resultados? Perde horas ou até dias juntando todos os seus dados para conseguir iniciar uma análise? Podemos construir dashboards gerenciais baseados nas melhores KPIs para o seu negócio, tornando o controle muito mais simples e rápido.<br>
+                  <a href="/projetojuntas" class="btn btn-primary btn-cat align-self-center mt-3">Saiba Mais</a>
                 </div>
             </div>
           </div>
 
           <div class="tab-pane bg-light fade" id="pills-sistemas" role="tabpanel" aria-labelledby="pills-sistemas-tab">
             <div class="media d-flex">
-                <div class="flex-column align-self-center img-categorias m-sm-1 m-md-3">
-                  <img class="m-3 img-categorias align-self-center" src="img/carrossel1.jpg" alt="Generic placeholder image">
-                  <img class="m-3 img-categorias align-self-center d-sm-block d-md-none" src="img/carrossel1.jpg" alt="Generic placeholder image">
+                <div class="flex-column align-self-center img-categorias m-sm-2 m-md-3">
+                  <img class="m-2 img-categorias align-self-center rounded-circle" src="img/categoriasistema.jpg" alt="Generic placeholder image">
+                  <a href="#" class="btn btn-primary btn-sm align-self-center m-3 d-sm-block d-md-none">Saiba Mais</a>
                 </div>
                 <div class="media-body m-3 txt-categorias align-self-center">
-                  <h5 class="">Media heading</h5>
-                  Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
-                </div>
-            </div>
-          </div>
-
-          <div class="tab-pane bg-light fade" id="pills-projetojuntas" role="tabpanel" aria-labelledby="pills-projetojuntas-tab">
-            <div class="media d-flex">
-                <div class="flex-column align-self-center img-categorias m-sm-1 m-md-3">
-                  <img class="m-3 img-categorias align-self-center" src="img/carrossel1.jpg" alt="Generic placeholder image">
-                  <img class="m-3 img-categorias align-self-center d-sm-block d-md-none" src="img/carrossel1.jpg" alt="Generic placeholder image">
-                </div>
-                <div class="media-body m-3 txt-categorias align-self-center">
-                  <h5 class="">Media heading</h5>
-                  Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+                  <h5 class="">Sistemas Gerenciais</h5>
+                  Deseja construir um sistema de controle personalizado para sua empresa? Com cadastros específicos, tratamento de dados, metas e KPIs? Podemos construir um sistema do zero com a sua cara.
+                  <br>
+                  <a href="/projetojuntas" class="btn btn-primary btn-cat align-self-center mt-3">Saiba Mais</a>
                 </div>
             </div>
           </div>

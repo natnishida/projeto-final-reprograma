@@ -10,7 +10,7 @@
     <title>@yield('title')</title>
 
     <!-- Scripts -->
-    <script src="{{ asset('js/app.js') }}" defer></script>
+    <script src="js/app.js" defer></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
 
     <!-- Fonts -->
@@ -18,16 +18,16 @@
     <link href="https://fonts.googleapis.com/css?family=Cinzel+Decorative|Special+Elite|Unica+One|Play|Rajdhani|Roboto+Slab|Nunito|Raleway" rel="stylesheet">
 
     <!-- Styles -->
-    <link href="{{ asset('css/app.css') }}" rel="stylesheet">
-    <link href="{{ asset('css/style.css') }}" rel="stylesheet">
+    <link href="css/app.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
 
 </head>
 <body>
     <div id="app">
         <!-- Menu com logo e login / register -->
-          <nav class="navbar navbar-expand-md navbar-light navbar-laravel" style="padding: 0">
+          <nav class="navbar navbar-expand-lg navbar-light navbar-laravel" style="padding: 0">
 
-                  <a id="logonavbar" href="/projetoreprograma/public/"><img src="../public/img/logo.jpg" alt="" class="navbar-brand" style="height: 10vh"/> Digital Consulting</a>
+                  <a id="logonavbar" href="/"><img src="img/logo.jpg" alt="" class="navbar-brand" style="height: 10vh"/> Digital Consulting</a>
 
                   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
                       <span class="navbar-toggler-icon"></span>
@@ -48,15 +48,15 @@
                             <li class="nav-item dropdown">
                               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="text-align: center">Saiba sobre nossos núcleos</a>
                               <div class="dropdown-menu" aria-labelledby="navbarDropdown" style="text-align: center">
-                                <a class="dropdown-item" href="/cross373/public/store">Consultoria Digital</a>
+                                <a class="dropdown-item" href="/consultoria">Consultoria Digital</a>
                                 <hr>
-                                <a class="dropdown-item" href="/cross373/public/storeplanos">Website e SEO</a>
+                                <a class="dropdown-item" href="/website">Website e SEO</a>
                                 <hr>
-                                <a class="dropdown-item" href="/cross373/public/store">Dashboards</a>
+                                <a class="dropdown-item" href="/dashboard">Dashboards</a>
                                 <hr>
-                                <a class="dropdown-item" href="/cross373/public/store">Sistemas gerenciais</a>
+                                <a class="dropdown-item" href="/sistemas">Sistemas gerenciais</a>
                                 <hr>
-                                <a class="dropdown-item" href="/cross373/public/store">Projeto Vamos Juntas</a>
+                                <a class="dropdown-item" href="/projetojuntas">Projeto Vamos Juntas</a>
                               </div>
                             </li>
 
@@ -136,54 +136,40 @@
                 <div class="row mt-3">
 
                     <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
-                        <h6 class="text-uppercase font-weight-bold">Cross 373</h6>
+                        <h6 class="text-uppercase font-weight-bold">Digital Consulting</h6>
                         <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
-                        <p>Somos mais que uma academia convencional , somos um centro de treinamento.
-
-                            Temos a melhor estrutura de Treinamento Funcional e Lutas da região.</p>
+                        <p>Muito mais do que uma consultoria, somos pessoas, de verdade, prontas para ajudar e fazer seu negócio crescer. Conte com a gente pro que precisar!</p>
                     </div>
 
                     <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4 linksfooter">
-                        <h6 class="text-uppercase font-weight-bold">Produtos</h6>
+                        <h6 class="text-uppercase font-weight-bold">Núcleos</h6>
                         <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
                         <p>
-                          <a href="#!">Planos</a>
+                          <a href="#!">Consultoria Digital</a>
                         </p>
                         <p>
-                          <a href="#!">Produtos Fitness</a>
+                          <a href="#!">Website</a>
                         </p>
                         <p>
-                          <a href="#!">Link1</a>
+                          <a href="#!">Estratégia de SEO</a>
                         </p>
                         <p>
-                          <a href="#!">Link2</a>
+                          <a href="#!">Dashboards</a>
+                        </p>
+                        <p>
+                          <a href="#!">Sistemas Gerenciais</a>
+                        </p>
+                        <p>
+                          <a href="#!">Projeto Vamos Juntas</a>
                         </p>
                     </div>
 
-                    <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4 linksfooter">
-                        <h6 class="text-uppercase font-weight-bold">Links úteis</h6>
-                        <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
-                        <p>
-                          <a href="#!">Sua conta</a>
-                        </p>
-                        <p>
-                          <a href="#!">Horários</a>
-                        </p>
-                        <p>
-                          <a href="#!">Sobre</a>
-                        </p>
-                        <p>
-                          <a href="#!">FAQ</a>
-                        </p>
-                    </div>
 
                     <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
                         <h6 class="text-uppercase font-weight-bold">Contato</h6>
                         <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
-                        <p> Av. Nossa Senhora </p>
-                        <p>da Encarnação, 373</p>
-                        <p>Jd. Maria Estela, SP</p>
-                        <p>+ 11 9999-9999</p>
+                        <p>queremosteouvir@digitalconsulting.com.br</p>
+                        <p>+ 11 99999-9999</p>
                     </div>
 
                 </div>
@@ -191,7 +177,7 @@
             </div>
 
             <div class="footer-copyright text-center py-3">© 2018 Copyright:
-              <a href="#"> www.cross373.com</a>
+              <a href="#"> www.digitalconsulting.com.br</a>
             </div>
 
 

@@ -36,7 +36,7 @@ hr {
   height: 2px;
   width: 70px;
   text-align: center;
-  background: black;
+  background: #1367ad;
   border: 0;
   margin-top: 10px;
   margin-bottom: 10px;
@@ -111,7 +111,7 @@ hr {
 }
 
 .textocategorias h2 {
-    color: black;
+    color: #fff;
     text-align: center;
 }
 
@@ -125,8 +125,22 @@ hr {
   border-top-right-radius: : .50rem;
 }
 
+.nav-pills .nav-link.active {
+  background-color: #1367ad;
+}
 
-@media (min-width: 768px) {
+.nav-link {
+  padding: 15px 30px 15px 30px;
+  font-size: 1rem;
+}
+
+.btn-cat {
+  width: 50%;
+  margin: auto;
+}
+
+
+@media (min-width: 992px) {
 .carousel-item {
   height: 88vh;
 }
@@ -135,120 +149,41 @@ hr {
 }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 991px) {
 .img-categorias {
   width: 35vw;
 }
 .txt-categorias {
   font-size: 0.8rem !important;
 }
+.carrossel-legenda{
+  font-size: 2rem;
 }
+.nav-item{
+  width: 100%;
+}
+.nav-link{
+  padding: 5px;
 
-/* Sobre nós (imagem e texto) */
+}
+.container {
+  padding: 0;
+}
+.btn-cat{
+  display: none;
+}
+}
 
 .container-fluid {
   padding: 0;
 }
-
-.sobrenos {
-  padding: 0;
-  background-image: url('../img/bgfitness1.jpg');
-  background-size: 100%;
-  width: 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-  text-align: center;
-
-}
-
-.textosobre {
-  color: white;
-  background-color: rgba(255, 255,255, 0.3);
-  margin: auto;
-  padding: 30px;
-  text-align: center;
-}
-
-.txtsobre{
-  font-size: 1.051em;
-  color: #FFF;
-  text-align: center;
-}
-
-.imgsobre {
-  background-image: url('../img/imgsobrenos.jpg');
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-
-/* divs dos horários e modalidades */
-
-h2.menu-section-title {
-  font-family: sans-serif;
-  color: black;
-  margin: auto;
-  text-align: center;
-}
-
-.menu-section {
-  padding: 50px;
-}
-
-.modhorario {
-  border-bottom: 0.5px dotted #cc1f34;
-  width: 10%;
-  margin: auto;
-  text-align: center;
-}
-
-.descricaomod {
-  margin: auto;
-  text-align: center;
-}
-
-.botaocontato {
-  cursor: pointer;
-
-  text-align: center;
-  margin: 0;
-}
-
-.divbotao {
-  display: flex;
-  justify-content: center;
-}
-
-.card {
-  margin: auto;
-  text-align: center;
-  width: 100%;
-}
-
-
-/* grid das fotos */
-
-.row {
-  margin: 0;
-}
-
-.galeria {
-  margin: 30px 0;
-}
-
 
 /* Newsletter e footer */
 
 .newsletter {
   background-color: #8D8D8D;
   padding-top: 15px;
-}
-
-.btn {
-  margin-left: 1%;
+  margin: 0;
 }
 
 .textonews {
@@ -285,122 +220,6 @@ h2.menu-section-title {
   color: #CCC;
 }
 
-
-/* store */
-
-.bannerstore {
-  height: 400px;
-  background-image: url('../img/bgstore.jpg');
-  background-size: cover;
-  background-position: center;
-  margin: 0;
-  padding: 0;
-}
-
-.bannerbg {
-  background-color: rgba(0, 0, 0, 0.6);
-  height: 400px;
-  margin: 0;
-  padding: 0;
-}
-.planos {
-  background-color: black;
-  margin: 0;
-  padding: 0;
-}
-
-.planos>hr{
-  margin: 0 auto;
-}
-
-
-
-/* menu store */
-.menustore {
-  background-color: black;
-
-
-}
-
-.menublank {
-  height: 100%;
-}
-
-.titulomenu {
-  text-align: center;
-  padding: 10px 0;
-  color: white;
-}
-
-.listamenu {
-  list-style-type: none;
-  text-align: center;
-  padding: 0;
-  color: white;
-}
-
-.listamenu li {
-  text-align: center;
-  margin: auto;
-}
-
-#titulobanner {
-
-  font-weight: bold;
-  font-size: 4em;
-  text-align: center;
-  padding: 20vh;
-}
-
-.mapa {
-  padding-top:15px;
-  padding-left:100px;
-}
-.container-produtos {
-  width: 60%;
-}
-
-
-
-/* Pagina produto individual */
-
-.mainphoto>img {
-  width: 400px;
-  height: 100%;
-}
-
-.photo_item>img {
-  margin-top: 5px;
-  margin-right: 5px;
-  width: 80px;
-  height: 100%;
-}
-
-#todoproduto {
-  background-color: #f9f9f9;
-}
-
-.carrinho {
-  padding-top:30px;
-  background-color: #f9f9f9;
-}
-
-.caixacarrinho {
-  margin-top: 25px;
-  width: 100%;
-  height: 260px;
-  background-color: #efefef;
-  border-radius: 10px;
-}
-
-.caixacarrinho>h4 {
-  padding-top:15px;
-  margin-left:20px;
-}
-
-.botaocarrinho {
-  padding-top: 25px;
-}
 
 /*Página de Read do CRUD de Admin - Produtos/Clientes/Planos*/
 
