@@ -178,6 +178,19 @@ hr {
   padding: 0;
 }
 
+/* Página do projeto vamos juntas */
+
+.containerprojetojuntas{
+  background-image: url('../img/bgjuntas.jpg');
+  height: 88vh;
+  background-size: 100%;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
 /* Newsletter e footer */
 
 .newsletter {
