@@ -39,11 +39,11 @@
 
 
                             <li class="nav-item">
-                              <a class="nav-link" href="/cross373/public/#sobre">Sobre nós</a>
+                              <a class="nav-link" href="/projetojuntas">Sobre nós</a>
                             </li>
 
                             <li class="nav-item">
-                              <a class="nav-link" href="/cross373/public/contato">Fale com a gente</a>
+                              <a class="nav-link" href="/contato">Fale com a gente</a>
                             </li>
                             <li class="nav-item dropdown">
                               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="text-align: center">Saiba sobre nossos núcleos</a>

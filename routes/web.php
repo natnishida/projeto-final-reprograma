@@ -26,3 +26,6 @@ Route::post('/guardaresultados', 'FunctionController@guardaresultados')->name('g
 
 Route::get('/resultados', 'FunctionController@mostraresultados')->name('mostraresultados');
 Route::post('/resultados', 'FunctionController@mostraresultados')->name('mostraresultados');
+
+Route::get('/contato', 'FunctionController@enviacontato')->name('contato');
+Route::post('/contato', 'FunctionController@enviacontato')->name('contato');

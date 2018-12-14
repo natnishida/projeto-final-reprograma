@@ -59,4 +59,14 @@ class FunctionController extends Controller
         'respostaFinanceiro' => $resp_financeiro1]);
     }
     }
+
+    public function enviacontato(Request $r){
+      if($r->isMethod('get')) {
+        return view('contato');
+      }
+      return view('contato',
+    [
+      'msg' => "Mensagem enviada com sucesso, em até 48 horas a gente te retorna, ok?"
+    ]);
+    }
 }
